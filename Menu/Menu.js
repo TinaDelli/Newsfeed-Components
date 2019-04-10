@@ -2,6 +2,11 @@
 const toggleMenu = () => {
   // Toggle the "menu--open" class on your menu refence. 
 menu.classList.toggle('menu--open');
+//JavaScript Animation: 
+// TweenLite.to(".menu", 0, { ease: SlowMo.ease.config(0.7, 0.7, false), x: -500 });
+// setTimeout(function(){
+//   TweenLite.to(".menu", 0.4, { ease: SlowMo.ease.config(0.7, 0.7, false), x: 0 });
+// }, 200)
 }
 
 // Start Here: Create a reference to the ".menu" class
